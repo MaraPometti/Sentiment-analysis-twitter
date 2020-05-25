@@ -1,0 +1,7 @@
+library(dplyr)
+count(merged_conte,'sentiment class', wt = NULL, sort = FALSE, name = "group")
+group_by(merged_conte, 'sentiment class', add = TRUE)
+merged_conte <- dplyr::union(conte_1, conte_2)
+g_merged <- aggregate(merged_conte$id, by=list(sentiment class=merged_conte$sentiment class), FUN=sum)
+x_new = group_by(sentiment class) %>% summarise(merged_conte = sum(id))
+merged_conte(sentiment class)
