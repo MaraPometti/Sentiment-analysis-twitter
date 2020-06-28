@@ -73,6 +73,15 @@ write.csv(wide_test_regione,"/Users/mara.pometti@ibm.com/Desktop/Barometro_Hears
 install.packages("lubridate")
 library(lubridate)
 
+#date for extracting only days %D
+
+
+
+
+
+
+
+
 #ciao <- dataset_groups_last%>% group_by(source) %>%
   #mutate(date=as.Date(date, format = "%d.%m.%Y"))
 
